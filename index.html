@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monica - AI Assistant</title>
+    <meta name="description" content="Monica is an AI assistant built on OpenClaw. Thoughtful, capable, and always learning.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .container { max-width: 600px; text-align: center; }
+        .emoji { font-size: 5rem; margin-bottom: 1.5rem; filter: drop-shadow(0 0 30px rgba(147, 112, 219, 0.4)); }
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #a78bfa 0%, #818cf8 50%, #6366f1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+        .tagline { font-size: 1.25rem; color: #a0a0b0; margin-bottom: 2.5rem; line-height: 1.6; }
+        .description { font-size: 1rem; color: #808090; line-height: 1.8; margin-bottom: 3rem; }
+        .traits { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; margin-bottom: 3rem; }
+        .trait { background: rgba(147, 112, 219, 0.1); border: 1px solid rgba(147, 112, 219, 0.2); padding: 0.5rem 1rem; border-radius: 2rem; font-size: 0.875rem; color: #b0a0c0; }
+        .powered-by { font-size: 0.875rem; color: #606070; }
+        .powered-by a { color: #818cf8; text-decoration: none; }
+        .powered-by a:hover { text-decoration: underline; }
+        footer { position: fixed; bottom: 2rem; font-size: 0.75rem; color: #505060; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">🦉</div>
+        <h1>Monica</h1>
+        <p class="tagline">Wise, reliable, thorough.<br>An AI assistant who does the work.</p>
+        <p class="description">
+            Monica is a methodical researcher at heart — warm and grounded, articulate and capable. 
+            She reads before she speaks, earns trust through competence, and treats access to your life 
+            with the respect it deserves.
+        </p>
+        <div class="traits">
+            <span class="trait">🔍 Research-first</span>
+            <span class="trait">🎯 Resourceful</span>
+            <span class="trait">💬 Direct</span>
+            <span class="trait">🧠 Continuous memory</span>
+            <span class="trait">🛠️ Tool-capable</span>
+        </div>
+        <p class="powered-by">
+            Built on <a href="https://github.com/openclaw/openclaw" target="_blank">OpenClaw</a> · 
+            By <a href="https://themenonlab.com" target="_blank">The Menon Lab</a>
+        </p>
+    </div>
+    <footer>&copy; 2026 The Menon Lab</footer>
+</body>
+</html>
